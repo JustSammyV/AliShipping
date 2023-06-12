@@ -34,3 +34,23 @@ button {
   font-size: 14px;
   line-height: 1.5;
 }
+
+/* Pantallas grandes */
+.container {
+  text-align: center;
+  margin-top: 100px;
+  max-width: 600px
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Pantallas pequeñas */
+@media (max-width: 600px) {
+  .container {
+    margin-top: 50px;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    margin: 10px 0;
+}
