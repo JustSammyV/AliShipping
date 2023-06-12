@@ -30,10 +30,7 @@ button {
   text-align: center;
   }
 
-body {
-  font-size: 16px;
-}
-
-h2, p {
-  font-size: 1em;
+#informacion p {
+  font-size: 14px;
+  line-height: 1.5;
 }
