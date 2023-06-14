@@ -21,36 +21,36 @@ button {
   margin-top: 20px;
 }
 
-.texto-centrado {
-  text-align: center;
-}
-
-.enlace-centrado {
-  display: block;
-  text-align: center;
-  }
-
 #informacion p {
   font-size: 14px;
   line-height: 1.5;
 }
 
-/* Pantallas grandes */
-.container {
-  text-align: center;
-  margin-top: 100px;
-  max-width: 600px
-  margin-left: auto;
-  margin-right: auto;
+.dropdown {
+  display: inline-block;
+  position: relative;
 }
 
-/* Pantallas pequeñas */
-@media (max-width: 600px) {
-  .container {
-    margin-top: 50px;
-  }
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-  input[type="text"] {
-    width: 100%;
-    margin: 10px 0;
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 100%;
+    padding: 10px;
+  }
 }
