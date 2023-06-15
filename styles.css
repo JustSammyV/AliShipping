@@ -1,35 +1,43 @@
+/*centrado-texto*/
 .container {
-  text-align: center;
-  margin-top: 10px;
+	text-align: center;
+	margin-top: 10px;
+	line-height: 1.2;
 }
 
+/*cuadrado*/
 input[type="text"] {
-  padding: 5px;
-  width: 200px;
-  margin: 10px;
+	font-size: 18px;
+	padding: 5px;
+	width: 200px;
+	margin: 10px;
 }
 
+/*boton*/
 button {
-  padding: 10px 20px;
-  background-color: #FF0000;
-  color: white;
-  border: none;
-  cursor: pointer;
+	padding: 10px 20px;
+	font-size: 16px;
+	background-color: #FF0000;
+	color: #FFFFFF;
+	border: none;
+	cursor: pointer;
 }
 
+/*margen-info*/
 #informacion {
-  margin-top: 20px;
+	margin-top: 18px;
 }
 
+/*info*/
 #informacion p {
-  font-size: 14px;
-  line-height: 1.5;
+	font-size: 18px;
+	line-height: 1.2;
 }
 
-/*cel-tab*/
+/*cel*/
 @media (max-width: 768px) {
 	body {
-	font-size: 22px;
+	font-size: 18px;
 }
   
 .container {
@@ -40,7 +48,7 @@ button {
 /*comp*/
 @media (min-width: 769px) {
 	body {
-	font-size: 22px;
+	font-size: 18px;
 }
   
 .container {
