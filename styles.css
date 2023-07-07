@@ -4,7 +4,9 @@
 	margin-top: 10px;
 	line-height: 1.2;
 }
-
+body {
+    background-image: url("/background.jpg");
+}
 /*cuadrado*/
 input[type="text"] {
 	font-size: 18px;
